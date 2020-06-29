@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.jiguang.share.reactnative"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+11-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:5:5-79
+11-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:7:5-68
+13-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:8:5-75
+14-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:11:5-66
+17-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:11:22-63
+18    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+18-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:12:5-84
+18-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:12:22-81
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+20-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:14:5-73
+20-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:14:22-70
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:15:5-76
+21-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:15:22-73
+22    <!-- Optional. Required for location feature -->
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+23-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:17:5-78
+23-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:17:22-75
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+24-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:18:5-81
+24-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:18:22-78
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:19:5-76
+25-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:19:22-73
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:20:5-79
+26-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:20:22-76
+27    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+27-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:21:5-89
+27-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:21:22-86
+28    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+28-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:22:5-79
+28-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:22:22-76
+29    <uses-permission android:name="android.permission.GET_TASKS" />
+29-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:23:5-68
+29-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:23:22-65
+30
+31    <application>
+31-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:24:5-61:19
+32
+33        <!-- Required SDK核心功能 -->
+34        <activity
+34-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:26:9-54:20
+35            android:name="cn.jiguang.share.android.ui.JiguangShellActivity"
+35-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:27:13-76
+36            android:exported="true"
+36-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:28:13-36
+37            android:launchMode="singleTask"
+37-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:29:13-44
+38            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+38-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:30:13-72
+39            android:windowSoftInputMode="stateHidden|adjustResize" >
+39-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:31:13-67
+40
+41            <!-- Optional QQ分享回调 -->
+42            <!-- scheme为“tencent”前缀再加上QQ开发者应用的appID；例如appID为123456，则scheme＝“tencent123456” -->
+43            <intent-filter>
+43-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:34:13-39:29
+44                <data android:scheme="tencent1106011004" />
+44-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:35:17-60
+44-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:35:23-57
+45
+46                <action android:name="android.intent.action.VIEW" />
+46-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:36:17-69
+46-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:36:25-66
+47
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:37:17-78
+48-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:37:27-75
+49                <category android:name="android.intent.category.DEFAULT" />
+49-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:17-76
+49-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:27-73
+50            </intent-filter>
+51
+52            <!-- Optional 新浪微博分享回调 -->
+53            <intent-filter>
+53-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:42:13-45:29
+54                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+54-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:43:17-92
+54-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:43:25-89
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:17-76
+56-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:27-73
+57            </intent-filter>
+58
+59            <!-- Optional 新浪微博私信回调 -->
+60            <intent-filter>
+60-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:48:13-53:29
+61                <action android:name="android.intent.action.VIEW" />
+61-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:36:17-69
+61-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:36:25-66
+62
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:17-76
+63-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:38:27-73
+64                <category android:name="android.intent.category.BROWSABLE" />
+64-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:37:17-78
+64-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:37:27-75
+65
+66                <data
+66-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:35:17-60
+67                    android:host="sinaweibo"
+67-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:52:50-74
+68                    android:scheme="jsharesdk" />
+68-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:35:23-57
+69            </intent-filter>
+70        </activity>
+71        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+72        <receiver android:name="cn.jiguang.share.reactnative.JShareModule$FaceBookUploadReceiver" >
+72-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:56:9-60:20
+72-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:56:19-98
+73            <intent-filter>
+73-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:57:13-59:29
+74                <action android:name="com.facebook.platform.AppCallResultBroadcast" />
+74-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:58:17-87
+74-->/Users/majiahao/Documents/Work/Project/SmartHome/SuperApp-rn/node_modules/jshare-react-native/android/src/main/AndroidManifest.xml:58:25-84
+75            </intent-filter>
+76        </receiver>
+77    </application>
+78
+79</manifest>
